@@ -42,9 +42,7 @@ public class Principal {
 		
 		// Parser
 		JsonParser jParser = new JsonParser();
-		JsonElement element = jParser.parse(json);	
-		
-		
+		JsonElement element = jParser.parse(json);			
 				
 		String nombre = "", edad ="", apellido="";
 		if (element.isJsonArray() ) {
